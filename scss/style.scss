@@ -1,0 +1,26 @@
+$colorprimario: #edecea;
+$medidaespecial: 2rem;
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 100px;
+  background: $colorprimario;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: $medidaespecial;
+  list-style: none;
+  text-decoration: none;
+}
